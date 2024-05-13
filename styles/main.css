@@ -1,0 +1,64 @@
+/* General body styles */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container adjustments */
+#container {
+    width: 90%;
+    margin: auto;
+}
+
+/* Styles for the choices container */
+article.choices {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Space between choices and order button */
+}
+
+/* Individual section styling within choices */
+article.choices section {
+    border: 2px dotted blue;
+    background-color: darkred;
+    color: white;
+    flex: 1;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Order button styling */
+article.order {
+    text-align: center; /* Centering the button inside the article */
+}
+
+article.order button {
+    background: url('https://images.theconversation.com/files/250100/original/file-20181211-76959-fbhgqt.jpg?ixlib=rb-4.1.0&rect=8%2C169%2C5341%2C2670&q=45&auto=format&w=1356&h=668&fit=crop') no-repeat center center; /* Replace with your actual image URL */
+    background-size: cover;
+    color: gold;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Text area styling */
+textarea {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: white; /* Ensuring text area has a white background */
+    border: 1px solid grey;
+    padding: 8px;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
